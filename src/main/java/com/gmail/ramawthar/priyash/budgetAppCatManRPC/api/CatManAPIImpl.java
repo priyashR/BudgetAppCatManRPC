@@ -18,7 +18,7 @@ public class CatManAPIImpl implements CatManAPI{
         return response;
     }
     //cURL example
-    //curl -H "Content-Type:application/json" -d '{"id":"1","jsonrpc":"2.0","method":"getParent","params":{"cat":"test"}}' http://localhost:8080/categories
+    //curl -H "Content-Type:application/json" -d '{"id":"1","jsonrpc":"2.0","method":"getParent","params":{"cat":"rental"}}' http://localhost:8080/categories
 
 
 }
