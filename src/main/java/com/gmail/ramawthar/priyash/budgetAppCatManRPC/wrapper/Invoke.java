@@ -12,7 +12,7 @@ public class Invoke {
 	public String getParent(String category){
 		RestTemplate restTemplate = new RestTemplate();
 		
-		ResponseEntity<List<Categories>> catResponse = restTemplate.exchange("http://localhost:9875/categories", 
+		ResponseEntity<List<Categories>> catResponse = restTemplate.exchange("http://localhost:9875/categories", //need to do this dynamically
 																		  HttpMethod.GET, 
 																		  null, 
 																		  new ParameterizedTypeReference<List<Categories>>() {});
